@@ -17,3 +17,9 @@ Força bruta/Blind search: exploram todo o espaço de busca, encontra a global o
 ->Best first: algoritmo de heuristica
 Problema de caminho: só pode ser feito com força bruta pois precisa de um solução global e é díficil de ter uma noção de perfomace
 Lee - Transforma caminho em grafos, nós e arestas
+Tabu Search - mantém uma lista de locais proibidos em memória, essa lista é composta por locais já visitados ou por não otimizarem a função objetivo. Bom para problemas combinatórios, critério de parada é o nº de combinações ou não melhora
+Simulated Annealing - não busca somente a otimização mas também explorar, uma variável temperatura ele tende a explorar quando está esta alta e a subir quando está baixa.
+
+Exemplo da loja 711
+Tabuseach - configuração binária - busca maximizar o valor de retorno da função de Avaliação (1 - função ideal)
+

@@ -23,3 +23,12 @@ Simulated Annealing - não busca somente a otimização mas também explorar, um
 Exemplo da loja 711
 Tabuseach - configuração binária - busca maximizar o valor de retorno da função de Avaliação (1 - função ideal)
 
+Simulated annealing - busca o mínimo local de uma função com o pacote GenSA
+
+Algoritmos genéticos - procuram imitar o processo de evolução natural das espécies para resolver problemas computacionais
+Utilizados em problemas de busca, otimização, agendamento, etc
+Existe condição de parada, solução otimizada ou tempo de processamento, e adaptação(fitness).
+Existe um problema e é gerada uma primeira geração e se avalia o qual próxima está da solução, então produz um cruzamento e novos descendentes até que esteja próximo da solução ou atinja o limite de processamento. Existe tbm a mutação, leves mudanças em alguns descendentes para novas possibilidades. Os melhores elementos (elitismo) não são cruzados, são transmitidos diretamente para a próxima geração.
+
+
+
